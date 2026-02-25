@@ -1,0 +1,13 @@
+{"time":"2025-11-27T11:25:12.920460258+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.0"}
+{"time":"2025-11-27T11:25:13.701302385+08:00","level":"INFO","msg":"stream: created new stream","id":"oyd2g0w4"}
+{"time":"2025-11-27T11:25:13.70136108+08:00","level":"INFO","msg":"handler: started","stream_id":"oyd2g0w4"}
+{"time":"2025-11-27T11:25:13.703427846+08:00","level":"INFO","msg":"stream: started","id":"oyd2g0w4"}
+{"time":"2025-11-27T11:25:13.703509911+08:00","level":"INFO","msg":"sender: started","stream_id":"oyd2g0w4"}
+{"time":"2025-11-27T11:25:13.703509111+08:00","level":"INFO","msg":"writer: started","stream_id":"oyd2g0w4"}
+{"time":"2025-11-27T11:30:51.031684815+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/wen660836-company-/stable_diffusion_from_scratch/oyd2g0w4/file_stream\": unexpected EOF"}
+{"time":"2025-11-27T11:31:30.931486069+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/wen660836-company-/stable_diffusion_from_scratch/oyd2g0w4/file_stream\": unexpected EOF"}
+{"time":"2025-11-27T12:00:55.629421415+08:00","level":"INFO","msg":"stream: closing","id":"oyd2g0w4"}
+{"time":"2025-11-27T12:00:56.577654051+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-27T12:00:57.11594484+08:00","level":"INFO","msg":"handler: closed","stream_id":"oyd2g0w4"}
+{"time":"2025-11-27T12:00:57.117583529+08:00","level":"INFO","msg":"sender: closed","stream_id":"oyd2g0w4"}
+{"time":"2025-11-27T12:00:57.117594405+08:00","level":"INFO","msg":"stream: closed","id":"oyd2g0w4"}

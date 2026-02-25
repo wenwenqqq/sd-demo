@@ -1,0 +1,26 @@
+Epoch 1/1000:   9%|████████                                                                                  | 267/3000 [01:15<12:57,  3.52it/s, loss=nan]Traceback (most recent call last):
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion.py", line 168, in <module>
+    for batch in train_dataloader:
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 652, in __next__
+    data = self._next_data()
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 692, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion.py", line 64, in __getitem__
+    augmented_image = self.augment(image)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 94, in __call__
+    img = t(img)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 1245, in forward
+    img = F.adjust_hue(img, hue_factor)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 902, in adjust_hue
+    return F_t.adjust_hue(img, hue_factor)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torchvision/transforms/functional_tensor.py", line 210, in adjust_hue
+    img = _rgb2hsv(img)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torchvision/transforms/functional_tensor.py", line 293, in _rgb2hsv
+    hr = (maxc == r) * (bc - gc)
+KeyboardInterrupt

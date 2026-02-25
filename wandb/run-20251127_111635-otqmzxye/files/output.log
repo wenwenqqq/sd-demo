@@ -1,0 +1,14 @@
+README.md: 1.14kB [00:00, 2.29MB/s]
+dataset_infos.json: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 804/804 [00:00<00:00, 239kB/s]
+data/train-00000-of-00001-78e564002aa9c8(…): 100%|████████████████████████████████████████████████████████████████████| 99.7M/99.7M [03:12<00:00, 519kB/s]
+Generating train split: 100%|██████████████████████████████████████████████████████████████████████████████████| 833/833 [00:00<00:00, 1493.65 examples/s]
+Traceback (most recent call last):
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion.py", line 93, in <module>
+    checkpoint = torch.load('stable_diffusion_results/stable_diffusion_model_checkpoint_epoch_100.pth', map_location=device)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'stable_diffusion_results/stable_diffusion_model_checkpoint_epoch_100.pth'

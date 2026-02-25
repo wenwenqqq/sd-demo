@@ -1,0 +1,85 @@
+{
+  "os": "Linux-5.4.15-1.el7.elrepo.x86_64-x86_64-with-glibc2.17",
+  "python": "CPython 3.8.13",
+  "startedAt": "2025-11-27T06:32:35.784593Z",
+  "program": "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion_DP.py",
+  "codePath": "DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion_DP.py",
+  "codePathLocal": "DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion_DP.py",
+  "email": "wen660836@gmail.com",
+  "root": "/data/bdd100k/sd",
+  "host": "wenqiang-detect-q4md4-2397639-worker-0",
+  "executable": "/data/miniconda3/envs/pose_det/bin/python3",
+  "cpu_count": 40,
+  "cpu_count_logical": 8,
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "gpu_count": 8,
+  "disk": {
+    "/": {
+      "total": "53660876800",
+      "used": "49054482432"
+    }
+  },
+  "memory": {
+    "total": "83886080000"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 4352,
+      "architecture": "Turing",
+      "uuid": "GPU-04a54495-331c-5605-9ec6-dbfe3215c3f4"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 4352,
+      "architecture": "Turing",
+      "uuid": "GPU-e1b0b30d-619e-a84f-e9df-5f0144e5a174"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 4352,
+      "architecture": "Turing",
+      "uuid": "GPU-af4bc977-f7b2-9f94-8754-9c359de05bfe"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 4352,
+      "architecture": "Turing",
+      "uuid": "GPU-d6f52b40-995c-5309-d1fd-db167e4b2fda"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 4352,
+      "architecture": "Turing",
+      "uuid": "GPU-770cbd28-205d-46ba-622e-69e9a8cb72c2"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 4352,
+      "architecture": "Turing",
+      "uuid": "GPU-37ad5260-8eec-55d3-15e3-3e10ac633203"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 4352,
+      "architecture": "Turing",
+      "uuid": "GPU-ace6d4b2-23eb-6bea-36a5-ebe6ed405281"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 4352,
+      "architecture": "Turing",
+      "uuid": "GPU-fe195df6-b67d-86e3-796b-4588bda348d9"
+    }
+  ],
+  "cudaVersion": "12.0",
+  "writerId": "umoq1nhl1t6jerzymquhdzlxt7n7n9pz"
+}

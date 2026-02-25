@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion.py", line 95, in <module>
+    model.load_vae('vae_model.pth')
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/stable_diffusion_model.py", line 72, in load_vae
+    self.vae.load_state_dict(torch.load(vae_path, map_location=torch.device('cpu')))
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'vae_model.pth'

@@ -1,0 +1,17 @@
+VAE预训练权重load完成
+Epoch 1/2:   0%|                                                                                                                      | 0/750 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion_DP.py", line 192, in <module>
+    for batch in train_dataloader:
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 652, in __next__
+    data = self._next_data()
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 692, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion_DP.py", line 81, in __getitem__
+    latent = self.model.encode(augmented_image.unsqueeze(0).to(self.device))
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1207, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'DataParallel' object has no attribute 'encode'

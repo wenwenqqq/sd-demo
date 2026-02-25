@@ -1,0 +1,7 @@
+VAE预训练权重load完成
+Epoch 1/2:   0%|                                                                                                                      | 0/750 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion_DP.py", line 198, in <module>
+    noisy_latents, noise = model.noise_scheduler.add_noise(latents, timesteps)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1207, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'DataParallel' object has no attribute 'noise_scheduler'

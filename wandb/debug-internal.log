@@ -1,0 +1,18 @@
+{"time":"2025-11-27T17:28:06.181312836+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.0"}
+{"time":"2025-11-27T17:28:07.131623501+08:00","level":"INFO","msg":"stream: created new stream","id":"e4kykx03"}
+{"time":"2025-11-27T17:28:07.131689723+08:00","level":"INFO","msg":"handler: started","stream_id":"e4kykx03"}
+{"time":"2025-11-27T17:28:07.135028031+08:00","level":"INFO","msg":"stream: started","id":"e4kykx03"}
+{"time":"2025-11-27T17:28:07.136325115+08:00","level":"INFO","msg":"sender: started","stream_id":"e4kykx03"}
+{"time":"2025-11-27T17:28:07.136325308+08:00","level":"INFO","msg":"writer: started","stream_id":"e4kykx03"}
+{"time":"2025-11-27T17:28:35.148715677+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":1747}
+{"time":"2025-11-27T17:28:35.148846322+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":1}
+{"time":"2025-11-27T17:28:39.40030855+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":2374}
+{"time":"2025-11-27T17:28:39.688236879+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":71}
+{"time":"2025-11-27T17:28:44.853702264+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":3684}
+{"time":"2025-11-27T17:28:44.85451106+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":9}
+{"time":"2025-11-27T17:28:48.102331911+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-27T17:28:48.750366312+08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-27T17:28:48.758161684+08:00","level":"INFO","msg":"stream: closing","id":"e4kykx03"}
+{"time":"2025-11-27T17:28:48.758184552+08:00","level":"INFO","msg":"handler: closed","stream_id":"e4kykx03"}
+{"time":"2025-11-27T17:28:48.762206829+08:00","level":"INFO","msg":"sender: closed","stream_id":"e4kykx03"}
+{"time":"2025-11-27T17:28:48.762227437+08:00","level":"INFO","msg":"stream: closed","id":"e4kykx03"}

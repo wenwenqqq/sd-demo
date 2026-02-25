@@ -1,0 +1,47 @@
+tokenizer_config.json: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 592/592 [00:00<00:00, 165kB/s]
+vocab.json: 862kB [00:01, 812kB/s]
+merges.txt: 525kB [00:00, 1.11MB/s]
+special_tokens_map.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 389/389 [00:00<00:00, 191kB/s]
+tokenizer.json: 2.22MB [00:01, 1.53MB/s]
+config.json: 4.19kB [00:00, 6.69MB/s]
+pytorch_model.bin: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 605M/605M [21:06<00:00, 478kB/s]
+Epoch 1/1000:   0%|                                                                                                               | 0/375 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion.py", line 168, in <module>
+    for batch in train_dataloader:
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 652, in __next__
+    data = self._next_data()
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 692, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion.py", line 58, in __getitem__
+    original_item = self.original_dataset[original_idx]
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/datasets/arrow_dataset.py", line 2762, in __getitem__
+    return self._getitem(key)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/datasets/arrow_dataset.py", line 2747, in _getitem
+    formatted_output = format_table(
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/datasets/formatting/formatting.py", line 639, in format_table
+    return formatter(pa_table, query_type=query_type)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/datasets/formatting/formatting.py", line 403, in __call__
+    return self.format_row(pa_table)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/datasets/formatting/formatting.py", line 492, in format_row
+    formatted_batch = self.format_batch(pa_table)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/datasets/formatting/formatting.py", line 521, in format_batch
+    batch = self.python_features_decoder.decode_batch(batch)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/datasets/formatting/formatting.py", line 228, in decode_batch
+    return self.features.decode_batch(batch) if self.features else batch
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/datasets/features/features.py", line 2087, in decode_batch
+    [
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/datasets/features/features.py", line 2088, in <listcomp>
+    decode_nested_example(self[column_name], value, token_per_repo_id=token_per_repo_id)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/datasets/features/features.py", line 1405, in decode_nested_example
+    return schema.decode_example(obj, token_per_repo_id=token_per_repo_id)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/datasets/features/image.py", line 189, in decode_example
+    if image.getexif().get(PIL.Image.ExifTags.Base.Orientation) is not None:
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/PIL/Image.py", line 76, in __getattr__
+    raise AttributeError(f"module '{__name__}' has no attribute '{name}'")
+AttributeError: module 'PIL.Image' has no attribute 'ExifTags'
+model.safetensors: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 605M/605M [14:08<00:00, 713kB/s]
+model.safetensors: 100%|███████████████████████████████████████████████████████████████████████████████████████████████| 605M/605M [14:08<00:00, 3.70MB/s]

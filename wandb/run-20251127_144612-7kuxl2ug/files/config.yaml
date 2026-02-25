@@ -1,0 +1,101 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            790k8m3huu3mtdv7ey4kqhl9geijr9eo:
+                codePath: DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion_DP.py
+                codePathLocal: DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion_DP.py
+                cpu_count: 40
+                cpu_count_logical: 8
+                cudaVersion: "12.0"
+                disk:
+                    /:
+                        total: "53660876800"
+                        used: "49056579584"
+                email: wen660836@gmail.com
+                executable: /data/miniconda3/envs/pose_det/bin/python3
+                gpu: NVIDIA GeForce RTX 2080 Ti
+                gpu_count: 8
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-04a54495-331c-5605-9ec6-dbfe3215c3f4
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-e1b0b30d-619e-a84f-e9df-5f0144e5a174
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-af4bc977-f7b2-9f94-8754-9c359de05bfe
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-d6f52b40-995c-5309-d1fd-db167e4b2fda
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-770cbd28-205d-46ba-622e-69e9a8cb72c2
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-37ad5260-8eec-55d3-15e3-3e10ac633203
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-ace6d4b2-23eb-6bea-36a5-ebe6ed405281
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-fe195df6-b67d-86e3-796b-4588bda348d9
+                host: wenqiang-detect-sbz79-2400460-worker-0
+                memory:
+                    total: "83886080000"
+                os: Linux-5.4.15-1.el7.elrepo.x86_64-x86_64-with-glibc2.17
+                program: /data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion_DP.py
+                python: CPython 3.8.13
+                root: /data/bdd100k/sd
+                startedAt: "2025-11-27T06:46:12.249849Z"
+                writerId: 790k8m3huu3mtdv7ey4kqhl9geijr9eo
+        m: []
+        python_version: 3.8.13
+        t:
+            "1":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 51
+                - 105
+            "2":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 51
+                - 105
+            "3":
+                - 1
+                - 16
+            "4": 3.8.13
+            "5": 0.23.0
+            "6": 4.46.3
+            "12": 0.23.0
+            "13": linux-x86_64
+batch_size:
+    value: 4
+epochs:
+    value: 2
+learning_rate:
+    value: 0.0001
+num_timesteps:
+    value: 1000

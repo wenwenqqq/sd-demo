@@ -1,0 +1,8 @@
+Epoch 1/1000:   0%|                                                                                                               | 0/375 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion.py", line 199, in <module>
+    total_loss.backward()
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 GiB (GPU 0; 10.75 GiB total capacity; 8.39 GiB already allocated; 648.50 MiB free; 9.13 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

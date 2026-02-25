@@ -1,0 +1,403 @@
+
+===== Epoch 0 训练前 阶段 GPU 显存信息 (rank=0) =====
+GPU 0 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.71 GiB
+  预留缓存显存: 0.78 GiB
+  可用显存: 10.04 GiB
+  峰值已分配显存: 0.71 GiB
+GPU 1 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 2 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 3 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 4 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 5 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 6 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 7 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+Rank 0 Epoch 1/2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████| 93/93 [01:27<00:00,  1.08it/s, loss=1.5]
+
+===== Epoch 0 训练后 阶段 GPU 显存信息 (rank=0) =====
+GPU 0 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 1.60 GiB
+  预留缓存显存: 8.31 GiB
+  可用显存: 9.15 GiB
+  峰值已分配显存: 7.55 GiB
+GPU 1 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 2 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 3 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 4 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 5 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 6 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 7 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+
+===== Epoch 0 验证前 阶段 GPU 显存信息 (rank=0) =====
+GPU 0 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 1.60 GiB
+  预留缓存显存: 8.31 GiB
+  可用显存: 9.15 GiB
+  峰值已分配显存: 1.60 GiB
+GPU 1 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 2 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 3 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 4 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 5 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 6 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 7 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+
+===== Epoch 0 验证后 阶段 GPU 显存信息 (rank=0) =====
+GPU 0 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 1.62 GiB
+  预留缓存显存: 8.31 GiB
+  可用显存: 9.14 GiB
+  峰值已分配显存: 3.67 GiB
+GPU 1 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 2 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 3 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 4 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 5 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 6 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 7 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+
+===== Epoch 1 训练前 阶段 GPU 显存信息 (rank=0) =====
+GPU 0 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 1.62 GiB
+  预留缓存显存: 8.31 GiB
+  可用显存: 9.14 GiB
+  峰值已分配显存: 1.62 GiB
+GPU 1 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 2 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 3 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 4 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 5 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 6 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 7 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+Rank 0 Epoch 2/2:   0%|                                                                                                                | 0/93 [00:00<?, ?it/s]
+Rank 0 Epoch 2/2: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 93/93 [01:26<00:00,  1.09it/s, loss=0.47]
+
+===== Epoch 1 训练后 阶段 GPU 显存信息 (rank=0) =====
+GPU 0 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 1.62 GiB
+  预留缓存显存: 8.31 GiB
+  可用显存: 9.14 GiB
+  峰值已分配显存: 7.57 GiB
+GPU 1 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 2 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 3 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 4 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 5 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 6 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 7 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+
+===== Epoch 1 验证前 阶段 GPU 显存信息 (rank=0) =====
+GPU 0 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 1.62 GiB
+  预留缓存显存: 8.31 GiB
+  可用显存: 9.14 GiB
+  峰值已分配显存: 1.62 GiB
+GPU 1 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 2 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 3 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 4 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 5 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 6 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 7 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+
+===== Epoch 1 验证后 阶段 GPU 显存信息 (rank=0) =====
+GPU 0 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 1.62 GiB
+  预留缓存显存: 8.31 GiB
+  可用显存: 9.14 GiB
+  峰值已分配显存: 3.67 GiB
+GPU 1 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 2 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 3 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 4 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 5 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 6 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 7 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB

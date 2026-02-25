@@ -1,0 +1,15 @@
+2025-11-27 11:13:41,279 INFO    MainThread:432 [wandb_setup.py:_flush():80] Current SDK version is 0.23.0
+2025-11-27 11:13:41,279 INFO    MainThread:432 [wandb_setup.py:_flush():80] Configure stats pid to 432
+2025-11-27 11:13:41,279 INFO    MainThread:432 [wandb_setup.py:_flush():80] Loading settings from /home/wenqiang/.config/wandb/settings
+2025-11-27 11:13:41,279 INFO    MainThread:432 [wandb_setup.py:_flush():80] Loading settings from /data/bdd100k/sd/wandb/settings
+2025-11-27 11:13:41,279 INFO    MainThread:432 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-11-27 11:13:41,279 INFO    MainThread:432 [wandb_init.py:setup_run_log_directory():713] Logging user logs to /data/bdd100k/sd/wandb/run-20251127_111341-jknovz8e/logs/debug.log
+2025-11-27 11:13:41,279 INFO    MainThread:432 [wandb_init.py:setup_run_log_directory():714] Logging internal logs to /data/bdd100k/sd/wandb/run-20251127_111341-jknovz8e/logs/debug-internal.log
+2025-11-27 11:13:41,279 INFO    MainThread:432 [wandb_init.py:init():840] calling init triggers
+2025-11-27 11:13:41,279 INFO    MainThread:432 [wandb_init.py:init():845] wandb.init called with sweep_config: {}
+config: {'batch_size': 8, 'learning_rate': 0.0001, 'epochs': 1000, 'num_timesteps': 1000, '_wandb': {}}
+2025-11-27 11:13:41,279 INFO    MainThread:432 [wandb_init.py:init():888] starting backend
+2025-11-27 11:13:41,646 INFO    MainThread:432 [wandb_init.py:init():891] sending inform_init request
+2025-11-27 11:13:41,686 INFO    MainThread:432 [wandb_init.py:init():899] backend started and connected
+2025-11-27 11:13:41,689 INFO    MainThread:432 [wandb_init.py:init():969] updated telemetry
+2025-11-27 11:13:41,691 INFO    MainThread:432 [wandb_init.py:init():993] communicating run to backend with 90.0 second timeout

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion_DDP.py", line 331, in <module>
+    main()
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion_DDP.py", line 159, in main
+    train_dataloader = DataLoader(
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 353, in __init__
+    batch_sampler = BatchSampler(sampler, batch_size, drop_last)
+  File "/data/miniconda3/envs/pose_det/lib/python3.8/site-packages/torch/utils/data/sampler.py", line 225, in __init__
+    raise ValueError("batch_size should be a positive integer value, "
+ValueError: batch_size should be a positive integer value, but got batch_size=4.0

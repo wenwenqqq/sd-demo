@@ -1,0 +1,56 @@
+
+===== Epoch 0 训练前 阶段 GPU 显存信息 (rank=0) =====
+GPU 0 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.71 GiB
+  预留缓存显存: 0.78 GiB
+  可用显存: 10.05 GiB
+  峰值已分配显存: 0.71 GiB
+GPU 1 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 2 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 3 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 4 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 5 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 6 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+GPU 7 (NVIDIA GeForce RTX 2080 Ti):
+  总显存: 10.75 GiB
+  已分配显存: 0.00 GiB
+  预留缓存显存: 0.00 GiB
+  可用显存: 10.75 GiB
+  峰值已分配显存: 0.00 GiB
+Rank 0 Epoch 1/2:   0%|                                                                                                                | 0/93 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion_DDP.py", line 331, in <module>
+    main()
+  File "/data/bdd100k/sd/DiT_from_scratch/stable_diffusion_from_scratch/train_stable_diffusion_DDP.py", line 236, in main
+    total_loss = mse_loss + diversity_weight * div_loss + cons_loss * current_lambda_cons
+UnboundLocalError: local variable 'diversity_weight' referenced before assignment
