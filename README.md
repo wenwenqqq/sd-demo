@@ -1,2 +1,4 @@
 # sd-demo
 sd-demo是一个基于transformer为ddpm的LDM架构生成模型的demo
+# ddp
+写了ddp的训练脚本和把原本的小数据集用vae压缩后得到的特征，直接使用数据压缩后的固定的特征去作为输入进行训练
